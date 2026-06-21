@@ -1,35 +1,33 @@
-# Portafolio de Ingeniería de Software: Soluciones Offline-First
+# Portafolio de Ingeniería, Automatización e IA
 
 **Desarrollador:** Luany Cuesta Rabelo
 **Contacto:** luanycuestarabelo@gmail.com | +5358048168
 **Telegram:** @Luany92 | **Redes:** Luanyhestia (IG) / Luanyhestia Cuesta (FB)
 
 ## Perfil Técnico
-Especialista en el diseño y desarrollo de software con arquitectura "Offline-First". Mi enfoque radica en crear soluciones de alta disponibilidad que operan con cero dependencias de servicios en la nube (SaaS), garantizando la continuidad del negocio en entornos de conectividad nula o inestable, optimizando recursos y eliminando costos de infraestructura.
+Especialista en soluciones integrales para negocios, abarcando desde el desarrollo de software bajo arquitectura "Offline-First" hasta la automatización de flujos de marketing digital mediante Inteligencia Artificial. Mi enfoque radica en eliminar costos fijos de infraestructura, asegurar los datos del negocio y escalar la captación de clientes mediante estrategias digitales optimizadas.
 
 ---
 
-## 1. SyncCore: Motor de Sincronización Asíncrona P2P
-**El Problema:** La gestión de inventarios y flujo de caja en sucursales distribuidas se paraliza cuando fallan los servidores en la nube o la conexión a internet.
-**La Solución:** Un motor de transporte seguro que convierte cualquier estructura de datos o archivo binario en un bloque cifrado transferible por mensajería instantánea (WhatsApp, Telegram, SMS).
+## 🛡️ Línea 1: Ingeniería de Software & Arquitecturas Locales
 
-**Características Técnicas:**
-* **Integridad Criptográfica:** Uso de firmas `HMAC-SHA256` para evitar la alteración o corrupción de paquetes durante el tránsito.
-* **Validación Temporal:** Prevención de ataques de repetición (replay attacks) y control de obsolescencia de archivos.
-* **Transporte Universal:** Codificación `Base64` acoplada a un esquema JSON estricto para reconstrucción exacta del binario en el destino.
+### 1. SyncCore: Motor de Sincronización Asíncrona P2P
+* **Problema:** Interrupción operativa y pérdida de sincronía de datos en sucursales debido a fallas de red o servidores centrales.
+* **Solución:** Protocolo de transporte local cifrado que empaqueta datos en bloques JSON/Base64 para transferencia asíncrona vía mensajería (WhatsApp, Telegram).
+* **Seguridad:** Validación mediante firmas `HMAC-SHA256` para garantizar la no alteración del archivo durante el tránsito.
 
----
-
-## 2. AudioEngine: Motor de Síntesis de Voz Local
-**El Problema:** Dependencia de APIs de terceros (como ElevenLabs o Google Cloud TTS) que generan costos por uso, requieren conexión constante y exponen datos.
-**La Solución:** Implementación de un sistema *Text-to-Speech* (TTS) integrado y autónomo para generación de activos multimedia.
-
-**Características Técnicas:**
-* **Ejecución Concurrente:** Procesamiento de audio encapsulado en hilos (`threading`) para evitar bloqueos en la interfaz gráfica (GUI).
-* **Cero Costo Operativo:** Utiliza dependencias nativas del sistema, exportando directamente a `.wav` para integración en pipelines de edición de video, sin latencia de red.
+### 2. AudioEngine: Sintetizador de Voz Autónomo
+* **Problema:** Costos elevados y restricciones de red al utilizar APIs de voz comerciales (SaaS) para la creación de contenido multimedia.
+* **Solución:** Script independiente en Python que ejecuta síntesis de voz (TTS) nativa en segundo plano utilizando hilos (`threading`), exportando directamente a formato ejecutable local (`.wav`).
 
 ---
 
-## 3. Sistema Integral ERP/POS (En Desarrollo)
-*El proyecto principal que integra las tecnologías anteriores.*
-Una plataforma completa de gestión de inventario y caja registradora diseñada para operar en hardware de bajos recursos. Incorpora SyncCore para auditorías remotas asíncronas y resolución de conflictos de bases de datos sin servidor central.
+## 📈 Línea 2: Automatización con IA & Growth Marketing
+
+### 3. Gestión y Tracción de Canales Digitales (Caso de Estudio: Sector Gastronómico)
+* **Alcance:** Administración completa de la identidad digital y redes sociales de una cafetería comercial durante 4 meses.
+* **Resultados:** Implementación de flujos de trabajo eficientes para la publicación, monitoreo de engagement y estructuración de campañas promocionales orientadas a la conversión directa.
+
+### 4. Campañas Especializadas para Servicios Locales (Estética y Relojería)
+* **Estrategia:** Desarrollo de campañas de marketing digital para nichos específicos (2 negocios de manicura y 1 taller de relojería fina). 
+* **Implementación de IA:** Uso estratégico de Inteligencia Artificial para la generación automatizada de imágenes comerciales, diseño de copys con técnicas de persuasión (AIDA/PAS) y optimización del tiempo de entrega de piezas de marketing.
